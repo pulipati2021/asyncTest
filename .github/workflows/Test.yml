@@ -1,0 +1,8 @@
+name: Test Workflow for aysnc-test
+on: workflow_dispatch
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello Async-test!"
